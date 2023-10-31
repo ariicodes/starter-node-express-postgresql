@@ -57,5 +57,5 @@ module.exports = {
 	list: asyncErrorBoundary(list),
 	listOutOfStockCount: asyncErrorBoundary(listOutOfStockCount),
 	listPriceSummary: asyncErrorBoundary(listPriceSummary),
-	listTotalWeightByProduct: asyncErrorBoundary(listTotalWeightByProducta),
+	listTotalWeightByProduct: asyncErrorBoundary(listTotalWeightByProduct),
 };

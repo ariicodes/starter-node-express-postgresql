@@ -107,7 +107,7 @@ module.exports = {
 		asyncErrorBoundary(create),
 	],
 	update: [
-		asyncErrorBoundarys(supplierExists),
+		asyncErrorBoundary(supplierExists),
 		hasOnlyValidProperties,
 		hasRequiredProperties,
 		asyncErrorBoundary(update),
